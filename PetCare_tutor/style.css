@@ -1,0 +1,64 @@
+/* Configurações gerais da pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f2;
+    color: #333;
+}
+
+/* Cabeçalho do sistema */
+header{
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Área principal*/
+main{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Título */
+h2{
+    margin-bottom: 20px;
+}
+
+/* Campos do formulário */
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botão de cadastro */
+button{
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #146c43;
+}
